@@ -3,7 +3,7 @@ import os
 from LIB.FOLDER import Folder
 
 RESET = 1  # 是否重新產生所有波形圖， =1 重新產生, =0 只針對新加入的手勢資料
-AXIS = 3  # 3 根手指
+AXIS = 3 
 totalTxt = Folder("C:/Users/Eric/Desktop/Handover/2_Smart_Glove_System/2_Preprocessing & Visualization/Preproc_Data")  # totalTxt=目標目錄下所有文件的絕對路徑
 re_inPath = "Preproc_Data"
 re_outPath = "Visualiztion"
