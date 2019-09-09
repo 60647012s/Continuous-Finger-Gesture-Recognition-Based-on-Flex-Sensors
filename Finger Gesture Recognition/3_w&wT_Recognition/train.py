@@ -55,8 +55,7 @@ for countTime in range(MODELNUM):
     modelName = 'model/' + MODELPATH + '/' + str(countTime + 1) + '_' + MODELPATH + '.h5'
     model = build_model(HDIM, AXIS, GESTURECLASS, WSIZE, CudaSwitch)
 
-    # GPU使用限制：train 須放在 model 之後，fit 之前
-    # gpu_options 設定 gpu 用量， device_count 設定 GPU 啟用編號，log_device_placement 印出詳細資訊
+    # GPU使用限制
     gpu_option = tf.GPUOptions(allow_growth=True, per_process_gpu_memory_fraction=0.6)
     if CudaSwitch == 1:
         config = tf.ConfigProto(gpu_options=gpu_option)
