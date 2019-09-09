@@ -63,4 +63,4 @@ def getSamples(trainFile):
 
 
 if __name__ == '__main__':
-    train, _ = getSamples(getFiles('C:/Users/Eric/Desktop/Handover/2_Smart_Glove_System/3_w&wT_Recognition/train1&2_test2/trainData1'))
+    train, _ = getSamples(getFiles('目標檔案絕對路徑'))
