@@ -8,9 +8,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 TESTPATH = 'train1&2_test2/testData2/'
 # MODELPATH = "201907020000_10_trainData1_128_60_Cu"
-# MODELPATH = "201907020000_10_trainData2_128_60_Cu"
-# MODELPATH = "201907020000_1_trainData2_128_60_Cu"
-MODELPATH = "201909091922_10_trainData1_128_60_Cu"
+MODELPATH = "201907020000_10_trainData2_128_60_Cu"
 MODELNUM = int(MODELPATH.split('_')[1])
 DATASET = MODELPATH.split('_')[2]
 HDIM = int(MODELPATH.split('_')[3])
@@ -26,12 +24,11 @@ def test(txtPath, model, label, sequen):  # 檔案路徑，.h5檔案，手勢的
         for line in test_case:
             s = line.strip().split(',')
             try:
-                sample.append(list(map(float, s[0:3])))  # 加入 list 將 map 強制轉型
+                sample.append(list(map(float, s[0:3])))  
             except:
                 pass
 
     # sample = [sample[0]*31] + sample + [sample[-1]*30]
-    # 前後補 sample 的第一與最後一筆，因為小手勢沒有大手勢的起手式動作
     sample = [sample[0]] * int((WSIZE / 2 + 0.5)) + sample + [sample[-1]] * int((WSIZE / 2))
 
     samples = []
@@ -80,7 +77,7 @@ for countTime in range(MODELNUM):
 
             txtPath = path.join(subdir, srcTxt)
 
-            # 用 list 將 map 強制轉型， l 中存放手勢的分類 例如：test\test3\1-2\SensorData_2017_11_21_161824，則 l = [1,2]
+            # l 中存放手勢的分類 例如：test\test3\1-2\SensorData_2017_11_21_161824，則 l = [1,2]
             l = list(map(int, label.split('-')))
             test(txtPath, model, l, ordAcc)  # 檔案路徑，modle，手勢的正確分類，ordAcc
             # ordAcc.printAns()
