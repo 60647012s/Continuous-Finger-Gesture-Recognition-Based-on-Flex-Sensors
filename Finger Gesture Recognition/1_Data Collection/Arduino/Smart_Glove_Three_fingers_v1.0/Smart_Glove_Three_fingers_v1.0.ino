@@ -1,11 +1,11 @@
-#include "Wire.h"  // 引入 Serial, pinMode 等等
-#include <SoftwareSerial.h>  // 引入 Bluetooth 相關函式。如：SoftwareSerial bluetooth()
-#include <Timer.h>  // 引入 trigger 函式
+#include "Wire.h"  
+#include <SoftwareSerial.h>  
+#include <Timer.h>  
 
 #define BT_TX_PIN 6  // 宣告 Bluetooth TX Pin
 #define BT_RX_PIN 8  // 宣告 Bluetooth RX Pin
-SoftwareSerial bluetooth(BT_TX_PIN, BT_RX_PIN);  // 建立 RX 與 TX 的傳輸
-Timer trigger;  // 功能：每隔故定 Xms 執行一次 "某個函式"。
+SoftwareSerial bluetooth(BT_TX_PIN, BT_RX_PIN);  
+Timer trigger;  
 
 const int FLEX_PIN_1 = A4;    // Flex0 Sensor Pin - Thumb
 const int FLEX_PIN_2 = A2;    // Flex1 Sensor Pin - Index
@@ -30,7 +30,7 @@ void setup()
   pinMode(FLEX_PIN_1, INPUT);    // Declare flex0 pin
   pinMode(FLEX_PIN_2, INPUT);    // Declare flex1 pin
   pinMode(FLEX_PIN_3, INPUT);    // Declare flex2 pin
-  trigger.every(20, Bluetooth_Transfer);  // 每 20ms 觸發一次 Bluetooth_Transfer()
+  trigger.every(20, Bluetooth_Transfer);  
 }
 
 void loop() 
