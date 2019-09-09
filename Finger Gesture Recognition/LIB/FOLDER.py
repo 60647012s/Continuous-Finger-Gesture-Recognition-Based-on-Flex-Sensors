@@ -26,5 +26,5 @@ class Folder():
         return self.totalFilePath
 
 if __name__ == '__main__':
-    FilePath = Folder("C:/Users/Eric/Desktop/Handover/2_Smart_Glove_System/1_Data Collection/Python/Sensor_Data")
+    FilePath = Folder("目標檔案絕對路徑")
     print(FilePath.absTotalFilePath())
