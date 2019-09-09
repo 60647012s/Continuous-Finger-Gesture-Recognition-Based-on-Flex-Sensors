@@ -46,5 +46,5 @@ def getTrain(train, train_label, wLength, classNUM, axis):
     return x_train, y_train, x_test, y_test
 
 if __name__ == '__main__':
-    train, train_label = getSamples(getFiles('C:/Users/Eric/Desktop/Handover/2_Smart_Glove_System/3_w&wT_Recognition/train1&2_test2/trainData1'))
+    train, train_label = getSamples(getFiles('目標檔案絕對路徑'))
     x_train, y_train, x_test, y_test = getTrain(train, train_label, 60, 4, 3)
