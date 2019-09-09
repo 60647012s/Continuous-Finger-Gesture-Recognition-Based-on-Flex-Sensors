@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/4_w&amp;wR_Recognition/loadData.py" line="9" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f5dc2de-b707-43c7-9894-826118d29cf4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$test.coverage" NAME="test Coverage Results" MODIFIED="1561898700392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_w&amp;wT_Recognition" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$loadData__1_.coverage" NAME="loadData (1) Coverage Results" MODIFIED="1561718972412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_w&amp;wR_Recognition" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$loadData.coverage" NAME="loadData Coverage Results" MODIFIED="1561718444237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_w&amp;wT_Recognition" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$sequentialAccuracyArray.coverage" NAME="sequentialAccuracyArray Coverage Results" MODIFIED="1561887030303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIB" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$MEDIUMFILTER.coverage" NAME="MEDIUMFILTER Coverage Results" MODIFIED="1561701377395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIB" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1561976317578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Preprocessing &amp; Visualization" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$FOLDER.coverage" NAME="FOLDER Coverage Results" MODIFIED="1561626695789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIB" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$ORDERACCURACY.coverage" NAME="ORDERACCURACY Coverage Results" MODIFIED="1561898558479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIB" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$train.coverage" NAME="train Coverage Results" MODIFIED="1561878854228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_w&amp;wT_Recognition" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$MODEL_GRU.coverage" NAME="MODEL_GRU Coverage Results" MODIFIED="1561876739819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIB" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1561971373881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_w&amp;wR_Recognition" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$VisualizationData.coverage" NAME="VisualizationData Coverage Results" MODIFIED="1561976608091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Preprocessing &amp; Visualization" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$TRAINPRE.coverage" NAME="TRAINPRE Coverage Results" MODIFIED="1561875797276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIB/TrainPreprocess" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$TRAINPRE_UTILS.coverage" NAME="TRAINPRE_UTILS Coverage Results" MODIFIED="1561875766271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIB/TrainPreprocess" />
+    <SUITE FILE_PATH="coverage/2_Smart_Glove_System$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1561973085750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_w&amp;wR_Recognition" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_w&amp;wT_Recognition/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LIB/MODEL_PAIRNET.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LIB/MODEL_GRU.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_w&amp;wT_Recognition/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LIB/ORDERACCURACY.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>howManyGestures</find>
+      <find>addfolder</find>
+      <find>hNum</find>
+      <find>dim</find>
+      <find>h5name</find>
+      <find>confuse</find>
+      <find>PATH</find>
+      <find>test_base_dir</find>
+      <find>h5PATH</find>
+      <find>sequential</find>
+      <find>count_Label</find>
+      <find>maxClass</find>
+      <find>sequen</find>
+      <find>confuseArray</find>
+      <find>DATASET</find>
+      <find>txtFile</find>
+      <find>JPG</find>
+      <find>self.allLabelCount</find>
+      <find>AXIS</find>
+      <find>file_path</find>
+      <find>defFinger_index*10000</find>
+      <find>1000</find>
+      <find>countMiddleLine</find>
+      <find>save_path</find>
+      <find>defIndexData</find>
+      <find>threshold</find>
+      <find>MODELNUM</find>
+      <find>HDIM</find>
+      <find>WSIZE</find>
+      <find>gru</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>hDim</replace>
+      <replace>avgFinger</replace>
+      <replace>conf</replace>
+      <replace>PATH</replace>
+      <replace>modelName</replace>
+      <replace>TESTPATH</replace>
+      <replace>maxResult</replace>
+      <replace>PNG</replace>
+      <replace>10000</replace>
+      <replace>countMiddleDef</replace>
+      <replace>OUTPATH</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LIB/FOLDER.py" />
+        <option value="$PROJECT_DIR$/LIB/MEDIUMFLITER.py" />
+        <option value="$PROJECT_DIR$/3_w&amp;wT_Recognition/LoadData.py" />
+        <option value="$PROJECT_DIR$/LIB/TrainPreprocess/TRAINPRE_UTILS.py" />
+        <option value="$PROJECT_DIR$/LIB/TrainPreprocess/TRAINPRE.py" />
+        <option value="$PROJECT_DIR$/LIB/MODEL_GRU.py" />
+        <option value="$PROJECT_DIR$/LIB/MEDIUMFILTER.py" />
+        <option value="$PROJECT_DIR$/4_w&amp;wR_Recognition/loadData.py" />
+        <option value="$PROJECT_DIR$/3_w&amp;wT_Recognition/loadData.py" />
+        <option value="$PROJECT_DIR$/4_w&amp;wR_Recognition/train.py" />
+        <option value="$PROJECT_DIR$/4_w&amp;wR_Recognition/test.py" />
+        <option value="$PROJECT_DIR$/TOOL/Silenc&amp;ActiveSplit.py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/Silenc&amp;ActiveSplit.py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/ActiveLoad.py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/silence_threshold.py" />
+        <option value="$PROJECT_DIR$/2_Preprocessing &amp; Visualization/VisualizationData.py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/histogram_ROC_threshold.py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/ROC_threshold .py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/active_threshold .py" />
+        <option value="$PROJECT_DIR$/2_Preprocessing &amp; Visualization/Preprocessing.py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/SilenceLoad.py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/silence_threshold.py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/active_threshold .py" />
+        <option value="$PROJECT_DIR$/5_w&amp;wD_Recognition/w&amp;wD/test.py" />
+        <option value="$PROJECT_DIR$/1_Data Collection/Python/Receive_Data_v1.0.py" />
+        <option value="$PROJECT_DIR$/LIB/MODEL_PAIRNET.py" />
+        <option value="$PROJECT_DIR$/LIB/ORDERACCURACY.py" />
+        <option value="$PROJECT_DIR$/3_w&amp;wT_Recognition/train.py" />
+        <option value="$PROJECT_DIR$/3_w&amp;wT_Recognition/test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2_Smart_Glove_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2_Smart_Glove_System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2_Smart_Glove_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2_Smart_Glove_System" type="462c0819:PsiDirectoryNode" />
+              <item name="2_Preprocessing &amp; Visualization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2_Smart_Glove_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2_Smart_Glove_System" type="462c0819:PsiDirectoryNode" />
+              <item name="3_w&amp;wT_Recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2_Smart_Glove_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2_Smart_Glove_System" type="462c0819:PsiDirectoryNode" />
+              <item name="4_w&amp;wR_Recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2_Smart_Glove_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2_Smart_Glove_System" type="462c0819:PsiDirectoryNode" />
+              <item name="5_w&amp;wD_Recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2_Smart_Glove_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2_Smart_Glove_System" type="462c0819:PsiDirectoryNode" />
+              <item name="6_Online Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2_Smart_Glove_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2_Smart_Glove_System" type="462c0819:PsiDirectoryNode" />
+              <item name="LIB" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\Desktop\Handover\2_Smart_Glove_System\5_w&amp;wD_Recognition\threshold Analyze\TOOL" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="active_threshold " type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2_Smart_Glove_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/active_threshold .py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="silence_threshold (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2_Smart_Glove_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/silence_threshold.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2_Smart_Glove_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_w&amp;wT_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_w&amp;wT_Recognition/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2_Smart_Glove_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_w&amp;wD_Recognition/w&amp;wD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_w&amp;wD_Recognition/w&amp;wD/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2_Smart_Glove_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_w&amp;wT_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_w&amp;wT_Recognition/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.silence_threshold (1)" />
+      <item itemvalue="Python.active_threshold " />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.train" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.active_threshold " />
+        <item itemvalue="Python.silence_threshold (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f5dc2de-b707-43c7-9894-826118d29cf4" name="Default Changelist" comment="" />
+      <created>1561618441464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561618441464</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117492095" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3564464" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32898173" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15924765" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40469974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32898173" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIB/MEDIUMFLITER.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-629358484/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/LIB/TrainPreprocess/TRAINPRE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIB/TrainPreprocess/TRAINPRE_UTILS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/h5py/_hl/files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIB/sequentialAccuracyArray.py" />
+    <entry file="file://$PROJECT_DIR$/LIB/FOLDER.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/01_w&amp;wTtransition/Library/ANN/testResultprocedure/sequentialAccuracyArray.py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/01_w&amp;wTtransition/03_ANN_20181216/test.py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/02_reGestures/03_ANN/test.py" />
+    <entry file="file://$PROJECT_DIR$/4_w&amp;wR_Recognition/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_w&amp;wR_Recognition/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIB/MEDIUMFILTER.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOOL/Silenc&amp;ActiveSplit.py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/03_foreVSbackGround/05_threshold/active_threshold .py" />
+    <entry file="file://$PROJECT_DIR$/3_w&amp;wT_Recognition/loadData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="44" column="76" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/Silenc&amp;ActiveSplit.py" />
+    <entry file="file://$PROJECT_DIR$/4_w&amp;wR_Recognition/loadData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/SilencLoad.py" />
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/active_threshold_num.txt" />
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/ActiveLoad.py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/03_foreVSbackGround/05_threshold/histogram_ROC_threshold.py" />
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/ROC_threshold .py" />
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/histogram_ROC_threshold.py" />
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/silence_threshold.py" />
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/TOOL/active_threshold .py" />
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/ActiveThreshold.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/keep/threshold Analyze/silence_threshold.py" />
+    <entry file="file://$PROJECT_DIR$/../../threshold Analyze/active_threshold .py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/03_foreVSbackGround/04_DoubleModel_silence_bySample_threeThreshold/03_silence_bySample/test_threshold+model1.py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/03_foreVSbackGround/03_DoubleModel_silence_bySample/03_silence_bySample/test_threshold.py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/03_foreVSbackGround/03_DoubleModel_silence_bySample/03_silence_bySample/test_threshold+model1.py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/03_foreVSbackGround/04_DoubleModel_silence_bySample_threeThreshold/03_silence_bySample/test.py" />
+    <entry file="file://E:/0_2018_Graduate/0_The_Study/0_Glove_Gestures/0_FlexSenor/Python/03_foreVSbackGround/04_DoubleModel_silence_bySample_threeThreshold/03_silence_bySample/test_threshold.py" />
+    <entry file="file://$PROJECT_DIR$/2_Preprocessing &amp; Visualization/VisualizationData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/SilenceLoad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/silence_threshold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/w&amp;wD/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Data Collection/Python/!重要! pyCharm 使用設定.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Data Collection/Python/Receive_Data_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="86" column="108" selection-start-line="86" selection-start-column="108" selection-end-line="86" selection-end-column="108" />
+          <folding>
+            <element signature="e#664#789#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_Preprocessing &amp; Visualization/Preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#83#394#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/active_threshold .py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_w&amp;wD_Recognition/threshold Analyze/ActiveLoad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/callbacks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11007">
+          <caret line="1035" column="44" lean-forward="true" selection-start-line="1035" selection-start-column="44" selection-end-line="1035" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIB/MODEL_GRU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIB/MODEL_PAIRNET.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_w&amp;wT_Recognition/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIB/ORDERACCURACY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_w&amp;wT_Recognition/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
