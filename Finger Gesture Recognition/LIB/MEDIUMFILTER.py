@@ -17,7 +17,6 @@ class MediumFilter():
           輸出: 無
     '''
     def mdFilter(self, targetTxt):
-        # 動態宣告 medFil_F(均值濾波暫存器), 方便之後擴展無名指與小指頭(3->5)
         for count_Finger in range(self.axis):  # 依輸入宣告均值濾波矩陣
             locals()["medFil_F_%s" % str(count_Finger)] = [0] * self.numAvg  # locals() 動態宣告變數
 
@@ -61,4 +60,4 @@ class MediumFilter():
 
 if __name__ == "__main__":
     test = MediumFilter(7, 3)
-    test.mdFilter("C:/Users/Eric/Desktop/Handover/2_Smart_Glove_System/2_Preprocessing & Visualization/Preproc_Data/testData/C.W_Kuan/2018-12-29/1/0_2018-12-29-21-17-19_C.W_Kuan.txt")
+    test.mdFilter("目標檔案絕對路徑")
